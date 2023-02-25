@@ -1,0 +1,22 @@
+.hero-hotel{
+    background-color: var(--main-white-color);
+}
+.hero-hotel-title{
+    font-weight: 400;
+font-size: 40px;
+line-height: 1;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--main-black-color);
+}
+.hero-hotel-btn{
+color: var(--main-black-color);
+}
+.hero-hotel-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: var(--main-black-color);
+}
