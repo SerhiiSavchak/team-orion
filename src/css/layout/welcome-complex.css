@@ -1,5 +1,7 @@
 .welcome {
   background-color: var(--main-white-color);
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .welcome-title {
@@ -9,6 +11,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--main-black-color);
+  margin-bottom: 32px;
 }
 
 .welcome-text {
@@ -17,4 +20,5 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--main-black-color);
+  margin-bottom: 32px;
 }
