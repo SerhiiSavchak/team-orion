@@ -1,0 +1,65 @@
+.restaurants-details {
+    background-color: var(--main-white-color);
+}
+.restaurants-details-title {
+    font-family:'dmsans',sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--main-black-color);
+}
+
+.restaurants-details-wrapper{
+    width: 221px;
+}
+.restaurants-details-text {
+
+    font-family: 'dmsans' ,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--main-black-color);
+    
+}
+.restaurants-details-img{
+    min-height: 201px;
+}
+.restaurants-details-btn{
+    
+    font-family: 'dmsans', sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--main-black-color);
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      
+}
+
+.restaurants-details-btn.link{
+    font-family: 'dmsans', sans-serif;
+}
+
+.restaurants-details-btn:hover,
+.restaurants-details-btn:focus{
+        color: var(--main-white-color);
+        background-color: var(--main-black-color);
+        border: 0.8px solid var(--main-white-color);
+        border-radius: 32px;    
+}
+
+
+
+
