@@ -1,0 +1,65 @@
+:root {
+  --suptitle-color: #484848;
+  --rewiew-text-color: #575757;
+}
+
+.about-complex {
+}
+
+.visuality-hidden {
+}
+
+
+.about-complex-rewiew {
+  background-color: var(--main-black-color);
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: 212px;
+}
+.about-complex-rewiew-img {
+}
+.about-complex-rewiew-wrap {
+}
+.about-complex-rewiew-name {
+  font-weight: 500;
+  text-transform: none;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--main-white-color);
+}
+.about-complex-rewiew-rating {
+  font-size: 12px;
+line-height: 1.33;
+color: var(--rewiew-text-color);
+text-transform: lowercase;
+}
+
+.about-complex-rewiew-rating span {
+  color: var(--main-white-color);
+}
+
+
+.about-complex-suptitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.18em;
+  color: var(--suptitle-color);
+}
+
+.about-complex-base-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+}
+
+.about-complex-top-text {
+}
+.about-complex-text {
+}
+.about-complex-wrap {
+}
+.about-complex-bottom-text {
+}
