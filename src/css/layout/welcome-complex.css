@@ -8,11 +8,26 @@
   line-height: 1.12;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
+  margin-bottom: 32px;
 }
 
-.welcome-text {
+.welcome-top-text {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
+  margin-bottom: 32px;
+  margin-right: 29px;
+}
+
+.welcome-bootom-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+  margin-bottom: 32px;
+}
+
+.welcome-img {
+  margin-bottom: 64px;
 }
