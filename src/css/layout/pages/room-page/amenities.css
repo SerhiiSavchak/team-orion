@@ -4,8 +4,6 @@
   padding-bottom: 64px;
   background-color: var(--main-black-color);
 }
-.amenities-container {
-}
 
 .amenities-main-list {
   margin-bottom: 64px;
@@ -25,8 +23,6 @@
   color: var(--main-white-color);
   list-style-type: disc;
 }
-.amenities-item {
-}
 
 .amenities-text {
   font-size: 14px;
@@ -38,8 +34,7 @@
   position: relative;
   margin-left: auto;
 }
-.amenities-img-item {
-}
+
 .amenities-img-item:last-child {
   position: absolute;
 }
@@ -141,8 +136,8 @@
   }
 
   .amenities-btn {
-    bottom: 235px;
-    right: 710px;
+    left: 50%;
+    transform: translate(-95%, -400%);
     font-size: 18px;
     line-height: 1.33;
     padding: 9px 24px;
