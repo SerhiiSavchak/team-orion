@@ -5,9 +5,15 @@
 .four-room-img-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   row-gap: 20px;
   column-gap: 19px;
   margin-bottom: 32px;
+}
+
+.four-room-img-item:nth-child(2),
+.four-room-img-item:nth-child(3) {
+  width: 46%;
 }
 
 .four-room-thumb {
@@ -61,10 +67,16 @@
     padding-bottom: 80px;
   }
   .four-room-img-list {
+    justify-content: right;
     flex-direction: row-reverse;
     margin-bottom: 40px;
     gap: 32px;
     position: relative;
+  }
+
+  .four-room-img-item:nth-child(2),
+  .four-room-img-item:nth-child(3) {
+    width: inherit;
   }
 
   .four-room-img-item:nth-child(3) {
