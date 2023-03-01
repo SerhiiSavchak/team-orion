@@ -51,6 +51,17 @@
   border-color: var(--main-black-color);
 }
 
+@media screen and (min-width: 375px) {
+  .triple-room-img-list {
+    justify-content: left;
+  }
+
+  .triple-room-img:nth-child(2),
+  .triple-room-img:nth-child(3) {
+    width: inherit;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .triple-room-text:first-child {
     margin-bottom: 24px;
@@ -67,15 +78,9 @@
   }
 
   .triple-room-img-list {
-    justify-content: left;
     margin-bottom: 40px;
     gap: 32px;
     position: relative;
-  }
-
-  .triple-room-img:nth-child(2),
-  .triple-room-img:nth-child(3) {
-    width: inherit;
   }
 
   .triple-room-img:nth-child(3) {

@@ -66,6 +66,17 @@
   border-color: var(--main-black-color);
 }
 
+@media screen and (min-width: 375px) {
+  .double-room-img-list {
+    justify-content: right;
+  }
+
+  .double-room-img-item:nth-child(2),
+  .double-room-img-item:nth-child(3) {
+    width: inherit;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .double-room {
     padding-top: 80px;
@@ -74,15 +85,9 @@
 
   .double-room-img-list {
     flex-direction: row-reverse;
-    justify-content: right;
     margin-bottom: 40px;
     gap: 32px;
     position: relative;
-  }
-
-  .double-room-img-item:nth-child(2),
-  .double-room-img-item:nth-child(3) {
-    width: inherit;
   }
 
   .double-room-img-item:nth-child(3) {

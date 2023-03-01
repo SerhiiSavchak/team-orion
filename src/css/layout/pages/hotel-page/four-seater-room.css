@@ -62,21 +62,26 @@
   border-color: var(--main-black-color);
 }
 
-@media screen and (min-width: 768px) {
-  .four-room {
-    padding-bottom: 80px;
-  }
+@media screen and (min-width: 375px) {
   .four-room-img-list {
     justify-content: right;
-    flex-direction: row-reverse;
-    margin-bottom: 40px;
-    gap: 32px;
-    position: relative;
   }
 
   .four-room-img-item:nth-child(2),
   .four-room-img-item:nth-child(3) {
     width: inherit;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .four-room {
+    padding-bottom: 80px;
+  }
+  .four-room-img-list {
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+    gap: 32px;
+    position: relative;
   }
 
   .four-room-img-item:nth-child(3) {
