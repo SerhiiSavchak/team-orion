@@ -46,7 +46,7 @@
   margin: 0;
 }
 
-.restaurant-menu-wrap:nth-of-type(4) .restaurant-menu-list:nth-of-type(1) {
+.restaurant-menu-wrap:nth-of-type(4) .restaurant-menu-list:nth-of-type(1){
   margin-bottom: 28px;
 }
 
@@ -156,35 +156,6 @@
   border-color: var(--main-white-color);
 }
 
-.my-slick-prev {
-  position: absolute;
-  bottom: -67px;
-  left: calc(100% - 60%);
-  border: none;
-  background-color: inherit;
-  width: 24px;
-  height: 24px;
-  background: url('../../../../images/slider-btn/button-prev.svg') 0 0 / 100%;
-  padding: 0;
-}
-
-.my-slick-next {
-  position: absolute;
-  bottom: -67px;
-  right: calc(100% - 60%);
-  border: none;
-  background-color: inherit;
-  width: 24px;
-  height: 24px;
-  background: url('../../../../images/slider-btn/button-next.svg') 0 0 / 100%;
-  padding: 0;
-}
-
-.slick-disabled {
-  opacity: 0.3;
-}
-
-
 
 @media screen and (max-width: 331px) {
   .restaurant-menu-title {
@@ -273,18 +244,6 @@
     margin-right: auto;
     margin-left: 0;
   }
-
-  .my-slick-next {
-    width: 36px;
-    height: 36px;
-    bottom: -77px;
-  }
-
-  .my-slick-prev  {
-    width: 36px;
-    height: 36px;
-    bottom: -77px;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -309,7 +268,6 @@
   }
 
   .restaurant-menu-main-wrap {
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     column-gap: 74px;
@@ -326,3 +284,4 @@
     display: block;
   }
 }
+
